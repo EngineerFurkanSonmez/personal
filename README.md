@@ -36,8 +36,7 @@ Dark avionics / HUD theme — inspired by cockpit displays, telemetry readouts, 
 personal/
 ├── .github/workflows/deploy.yml   # GitHub Actions → GitHub Pages
 ├── public/
-│   ├── favicon.svg                # Avionics crosshair icon
-│   └── cv.pdf                     # ← ADD YOUR CV HERE
+│   └── favicon.svg                # Avionics crosshair icon
 ├── src/
 │   ├── data/
 │   │   └── cv.ts                  # All CV content — edit here
@@ -80,18 +79,6 @@ npm run build
 # Preview production build
 npm run preview
 ```
-
----
-
-## Adding Your CV PDF
-
-Place your CV file at:
-
-```
-public/cv.pdf
-```
-
-The "Download CV" button in the navbar and contact section will automatically serve it from `/personal/cv.pdf` after deployment.
 
 ---
 

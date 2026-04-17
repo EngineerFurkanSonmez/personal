@@ -54,12 +54,6 @@ export default function Navbar() {
                 {label}
               </a>
             ))}
-            <a
-              href={`mailto:${cvData.personal.email}`}
-              className="ml-2 px-4 py-1.5 border border-hud-cyan/40 text-hud-cyan text-xs font-mono tracking-widest uppercase rounded-sm hover:bg-hud-cyan/10 hover:border-hud-cyan transition-all duration-200"
-            >
-              Download CV
-            </a>
           </div>
 
           {/* Mobile hamburger */}
@@ -95,12 +89,6 @@ export default function Navbar() {
                 {label}
               </a>
             ))}
-            <a
-              href={`mailto:${cvData.personal.email}`}
-              className="mt-2 text-center px-4 py-2 border border-hud-cyan/40 text-hud-cyan text-xs font-mono uppercase rounded-sm hover:bg-hud-cyan/10 transition-all"
-            >
-              Download CV
-            </a>
           </div>
         </div>
       )}
