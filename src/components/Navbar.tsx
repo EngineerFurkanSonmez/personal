@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { cvData } from '../data/cv'
+
 
 const navLinks = [
   { href: '#about',      label: 'About' },
